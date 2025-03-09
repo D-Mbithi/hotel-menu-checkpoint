@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Menu</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <header class="border-b border-green-800 border-dashed pb-20">
+        <nav class="flex justify-between items-center max-w-[1200px] mx-auto py-4 px-6 border-b border-green-800">
+            <h2 class="font-medium text-2xl text-green-800">
+                <a href="#" class="flex items-center gap-2 text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                        fill="#000">
+                        <path
+                            d="m160-120-80-80h800l-80 80H160Zm-40-120q6-18 16-34t24-30v-296h-40v-60h40v-30h-40v-60h40v-30h-40v-60h280q33 0 56.5 23.5T480-760v10h360v60H480v10q0 33-23.5 56.5T400-600h-80v244q14 2 28 6t26 12q26-65 83-103.5T583-480q90 0 153.5 61.5T800-268v28H120Zm334-80h252q-17-36-50-58t-73-22q-42 0-77 21t-52 59ZM320-750h80v-30h-80v30Zm0 90h80v-30h-80v30Zm-100-90h40v-30h-40v30Zm0 90h40v-30h-40v30Zm0 314q10-5 19.5-7.5T260-358v-242h-40v254Zm360 26Z" />
+                    </svg>
+                    Unicusine
+                </a>
+            </h2>
+            <div class="space-x-5">
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+            <button
+                class="border rounded-full px-5 py-2 border-green-800 flex gap-2 items-center hover:bg-green-800 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="hover:text-white" height="24px" viewBox="0 -960 960 960"
+                    width="24px" fill="#18333C">
+                    <path
+                        d="M760-480q0-117-81.5-198.5T480-760v-80q75 0 140.5 28.5t114 77q48.5 48.5 77 114T840-480h-80Zm-160 0q0-50-35-85t-85-35v-80q83 0 141.5 58.5T680-480h-80Zm198 360q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
+                </svg>
+                (072) 658-3272
+            </button>
+        </nav>
+        <div>
+            <h2 class="text-center font-light text-8xl text-green-800 py-20 font-serif">
+                Dive into Delicious <br />
+                Meal Dishes
+            </h2>
+            <div
+                class="overflow-x-auto flex gap-3 justify-center overscroll-contain flex items-center scrollbar-hidden">
+                <img class="h-96 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 1" />
+                <img class="h-60 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1495214783159-3503fd1b572d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 2" />
+                <img class="h-96 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 3" />
+                <img class="h-60 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 1" />
+                <img class="h-96 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1495214783159-3503fd1b572d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 2" />
+                <img class="h-60 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 3" />
+                <img class="h-96 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 1" />
+                <img class="h-60 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1495214783159-3503fd1b572d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 2" />
+                <img class="h-96 w-auto rounded-md border-2 border-slate-800"
+                    src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="Delicious Meal 3" />
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="max-w-[1200px] mx-auto py-20 px-6 flex flex-col items-center">
+            <h2 class="font-bold font-serif text-4xl text-green-800 text-center my-10">
+                Breakfast Special Menu
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="border-b border-dashed border-green-800 pb-5 flex gap-2 items-center justify-between"> 
+                    <div class="flex gap-2 items-center"> 
+
+                        <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                        <div>
+                            <h3 class="text-green-700 text-2xl font-medium">1 Frittata</h3>
+                            <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                        </div>
+                    </div>
+                    <p class="text-green-700 font-bold text-3xl font-serif">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center border-b border-dashed border-green-800 pb-5 justify-between">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center border-b border-dashed border-green-800 pb-5 justify-between">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Risotto</h3>
+                        <p class="justify-self-end">
+                            Arborio Rice, Chicken Broth, Parmesan Cheese
+                        </p>
+                    </div>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center border-b border-dashed border-green-800 pb-5 justify-between">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">
+                            Spaghetti Carbonara
+                        </h3>
+                        <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                </div>
+                <div class="flex gap-2 items-center border-b border-dashed border-green-800 pb-5 justify-between">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                </div>
+                <div class="flex gap-2 items-center border-b border-dashed border-green-800 pb-5 justify-between">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Risotto</h3>
+                        <p class="justify-self-end">
+                            Arborio Rice, Chicken Broth, Parmesan Cheese
+                        </p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">
+                            Spaghetti Carbonara
+                        </h3>
+                        <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <div class="flex gap-2 items-center">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                </div>
+            </div>
+            <button type="button"
+                class="bg-green-800 text-white border-2 border-green-800 rounded-full px-5 py-2 mt-10">
+                Book a Table
+            </button>
+        </section>
+
+        <section class="max-w-[1200px] mx-auto py-20 px-6 flex flex-col items-center">
+            <h2 class="font-bold font-serif text-4xl text-green-800 text-center my-10">
+                Luch Special Menu
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">
+                            Spaghetti Carbonara
+                        </h3>
+                        <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Risotto</h3>
+                        <p class="justify-self-end">
+                            Arborio Rice, Chicken Broth, Parmesan Cheese
+                        </p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">
+                            Spaghetti Carbonara
+                        </h3>
+                        <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Risotto</h3>
+                        <p class="justify-self-end">
+                            Arborio Rice, Chicken Broth, Parmesan Cheese
+                        </p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">
+                            Spaghetti Carbonara
+                        </h3>
+                        <p class="justify-self-end">Spaghetti, Eggs, Parmesan Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+                <div class="flex gap-2 items-center justify-stretch border-b border-dashed border-green-800 pb-5">
+                    <img class="h-20"
+                        src="https://images.unsplash.com/photo-1621291726769-86a0b3fc6357?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Delicious Meal 3" />
+                    <div>
+                        <h3 class="text-green-700 text-2xl font-medium">Lasagna</h3>
+                        <p class="justify-self-end">Beef, Tomato Sauce, Ricotta Cheese</p>
+                    </div>
+                    <p class="flex gap-1 text-green-700 font-bold text-3xl font-serif justify-self-end">
+                        $120
+                    </p>
+                </div>
+            </div>
+            <button type="button"
+                class="bg-green-800 text-white border-2 border-green-800 rounded-full px-5 py-2 mt-10">
+                Book a Table
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>
